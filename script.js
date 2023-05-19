@@ -72,5 +72,15 @@ var newParagraph1 = document.createElement("p");
 var newText1 = document.createTextNode("The sum of even numbers between 0 to 10 is : " + y);
 newParagraph1.appendChild(newText1);
 document.body.appendChild(newParagraph1);
+//
+var r = 0;
+var z = 0;
+for (r = 1; r<11; r++) {
+z = z + r;
+var newParagraph = document.createElement("p");
+var newText = document.createTextNode(r+' ---> '+z);
+newParagraph.appendChild(newText);
+document.body.appendChild(newParagraph);
+}
 
     
